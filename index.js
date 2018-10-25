@@ -3,8 +3,8 @@
 var mongoose = require('mongoose');
 var app = require('./app');
 var port = process.env.PORT || 3977;
-
-mongoose.connect('mongodb://localhost:27017/curso_mean2',(err,res)=>{
+var dburi=process.env.MONGODB_URI || 'mongodb://localhost:27017/curso_mean2';
+mongoose.connect(dburi,(err,res)=>{
 	if(err){
 		throw err;
 	}
