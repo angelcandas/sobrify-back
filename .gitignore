@@ -8,11 +8,8 @@
 # dependencies
 /node_modules
 /multimedia
-/uploads/multimedia
-/uploads/albums
-/uploads/artists
-/uploads/users
-/uploads/songs
+/multimedia
+/uploads
 # IDEs and editors
 /.idea
 .project
